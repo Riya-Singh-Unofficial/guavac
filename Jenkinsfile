@@ -8,14 +8,14 @@ pipeline {
 
     environment {
         // Define the path to the JAR file
-        JAR_PATH = 'target/my-maven-app3-1.0-SNAPSHOT.jar'
+        JAR_PATH = 'target/MyMavenGuavaApp-1.0-SNAPSHOT.jar'
     }
 
     stages {
         stage('Checkout') {
             steps {
                 // Clone your Git repository
-                git url: 'https://github.com/Vinayak-Rajput/Maven-Src-to-Dest'
+                git url: 'https://github.com/Riya-Singh-Unofficial/guavac.git'
 
             }
         }
