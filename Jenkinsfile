@@ -6,11 +6,6 @@ pipeline {
         jdk 'JDK'         // Ensure JDK 11 is available in Jenkins
     }
 
-    environment {
-        // Define the path to the JAR file
-        JAR_PATH = 'target/MyMavenGuavaApp-1.0-SNAPSHOT.jar'
-    }
-
     stages {
         stage('Checkout') {
             steps {
